@@ -1,0 +1,9 @@
+#' rightleftorder
+#' 
+#' Reorder a vector \code{x}, starting at a given index \code{i} and proceeding
+#' rightward then leftward.
+#' 
+#' @param x A vector
+#' @param i An integer between 1 and \code{length(x)}.
+#' @export
+rightleftorder<-function(n,i){ c(i:n, (i-1:1))}
